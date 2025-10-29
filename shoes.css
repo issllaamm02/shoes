@@ -256,6 +256,7 @@
     width: 325px;
     height: 250px;
     border-radius: 5px;
+    margin-top: 30px;
 }
 .content{
     margin-top: 100px;
@@ -478,5 +479,6 @@
 
 
 }
+
 
 
