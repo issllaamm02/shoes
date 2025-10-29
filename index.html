@@ -3,125 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="shoes.css">
-    <title>shoes web</title>
+    <link rel="stylesheet" href="../shes-jdid/code-shoes/shoes.css">
+    <title>shoes2</title>
 </head>
-<body>
-    <ul id="menu">
-        <li>Home</li>
-        <li>About</li>
-        <li>Categoris</li>
-        <li>Top prodact</li>
-        <li>cart</li>
-    </ul>
-    <img src="../images/banner.jpg" alt="" class="img-pr">
-    <br>
-    <br>
-    <div id="About">
-        <div class="content">
-            <h2>start your online shopping with us</h2>
-            <p>here where styles meets pranformance, offering hight quality for all athlets</p>
-        </div>
-        <img  src="../images/principal.jpg" >
-    </div>
-    <br><br>
-    <div id="Categories">
-        <h2>All Categories </h2>
-        <div class="Categories-s-kolech">
-            <div class="Categories-s">
-                <img src="../images/men shoose.jpg" alt="men shoose">
-             <h5>men shoose</h5>
-            </div>
-            <div class="Categories-s">
-                <img src="../images/woman shoes.jpg" alt="woman shoes">
-                <h5>woman shoes</h5>
-            </div>
-            <div class="Categories-s">
-                <img src="../images/children.jpg" alt="children">
-                <h5>children</h5>
-            </div>
-            <div class="Categories-s">
-                <img src="../images/socks.jpg" alt="socks">
-                <h5>socks</h5>
+<body id="bodi">
+    <div class="info-order">
+        <div class="info">
+            <h2 style="margin-left: 10px;">Client Information</h2>
+            <div class="info-s">
+                <div class="ss">
+                    <label for="first">First name</label>
+                    <input type="text" name="first" class="inp" id="firsst"> 
+                </div>
+                <div class="ss">
+                    <label for="last">last name</label>
+                    <input type="text" name="last" class="inp" id="lasst">
+                </div>
+                <div class="ss">
+                    <label for="email">email</label>
+                    <input type="email" name="email" class="inp">
+                </div>
+                <div class="ss">
+                    <label for="tel">number</label>
+                    <input type=" number" name="tel" class="inp">
+                </div>
+                <div class="ss">
+                    <label for="tel">number</label>
+                    <input type=" number" name="tel" class="inp">
+                </div>
+                <div class="ss">
+                    <label for="addres">Addres</label>
+                    <input type="text" name="addres" class="inp">
+                </div>
             </div>
         </div>
-    </div>
-    <br><br>
-    <div id="topprodact">
-        <h2 >Top prodact</h2>
-        <div class="prodacts">
-            <div class="prodact">
-                <img class="img-lm" src="../images/1.jpg" alt="">
-                <h5 class= "lm">title</h5>
-                <p class="lm2">100</p>
-                <button class="btn-ss"onclick="prd()"><a href="#" >buy</a></button>
+        <div class="order">
+            <h2>Order Summary</h2>
+            <div class="code-promo">
+                <label for="promo">Promo code</label>
+                <div class="input-promo">
+                    <input type="text" name="promo" id="inpt-pr">
+                    <button class="btn-1" >Apply</button>
+                </div>
             </div>
-            <div class="prodact">
-                <img class="img-lm" src="../images/2.jpg" alt="">
-                <h5 class="lm">sbat</h5>
-                <p class="lm2">200</p>
-                <button class="btn-ss"onclick="prd()"><a href="#" >buy</a></button>
-            </div>
-            <div class="prodact">
-                <img class="img-lm" src="../images/3.jpg" alt="">
-                <h5 class="lm">title</h5>
-                <p class="lm2">100</p>
-                <button class="btn-ss"onclick="prd()"><a href="#">buy</a></button>
-            </div>
-
-            <div class="prodact">
-                <img class="img-lm" src="../images/4.jpg" alt="">
-                <h5 class="lm">title</h5>
-                <p class="lm2">100</p>
-                <button class="btn-ss"onclick="prd()"><a href="#">buy</a></button>
-            </div>
-            <div class="prodact">
-                <img class="img-lm" src="../images/5.jpg" alt="">
-                <h5 class="lm">title</h5>
-                <p class="lm2">100</p>
-                <button class="btn-ss"onclick="prd()"><a href="#">buy</a></button>
-            </div>
-            <div class="prodact">
-                <img class="img-lm" src="../images/6.jpg" alt="">
-                <h5 class="lm">title</h5>
-                <p class="lm2">100</p>
-                <button class="btn-ss"onclick="prd()"><a href="#">buy</a></button>
-            </div>
-            <div class="prodact">
-                <img class="img-lm" src="../images/7.jpg" alt="">
-                <h5 class="lm">title</h5>
-                <p class="lm2">100</p>
-                <button class="btn-ss"onclick="prd()"><a href="#">buy</a></button>
-            </div>
-            <div class="prodact">
-                <img class="img-lm" src="../images/8.jpg" alt="">
-                <h5 class="lm">title</h5>
-                <p class="lm2">100</p>
-                <button class="btn-ss"onclick="prd()"><a href="#">buy</a></button>
-            </div>
-            <div class="prodact">
-                <img class="img-lm" src="../images/9.jpg" alt="">
-                <h5 class="lm">title</h5>
-                <p class="lm2">100</p>
-                <button class="btn-ss"onclick="prd()"><a href="../code-shoes/index.html">buy</a></button>
-            </div>
-
+            <p>Product Cost</p>
+            <button class="btn-ordr" onclick="btncnfrmv()">Confirm Order</button>
         </div>
     </div>
-    <button><a href="../index.html">uiii</a></button>
-        <script src="shoes.js"></script>
+    <div class="tabl-prodact">
+        <h2>Product Information</h2>
+        <div class="tabl">
+            <div class="tablo">
+                <div class="tablo-str1">
+                    <p>Product</p>
+                    <p>Title</p>
+                    <p>quantity</p>
+                    <p>Price</p>
+                    <p>Total price</p>
+                </div>
+                <div class="prdct">
+                    <img class="p0" src="" alt="">
+                    <p class="p1">ll</p>
+                    <p class="p2">1</p>
+                    <p class="p3">ll</p>
+                    <p class="p4">//</p>
+                </div>
+                <button onclick="qntiti()" class="bnt">Add+</button>
+                    <p class="total-p">Total:</p>
+            </div>
+        </div>
+    </div>
 
 
-
-
-
-
-        
-
-
-
-
-
-
+    <button><a href="../shes-jdid/code-shoes/index.html">uiii</a></button>
+    <script src="../shes-jdid/code-shoes/shoes.js"></script>
 </body>
 </html>
+
