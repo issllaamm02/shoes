@@ -1,0 +1,480 @@
+*{
+    font-family: cursive;
+}
+#menu{
+    display: flex;
+    list-style: none;
+    gap: 23px;
+    justify-content: flex-end;
+}
+#About{
+    display: flex;
+    gap: 70px;
+}
+#About img{
+    width: 650px;
+    height: 500px;
+    border-radius: 10px;
+}
+.content{
+    margin-top: 200px;
+    margin-left: 20px;
+}
+#Categories{
+    background-color: rgb(252, 249, 239);
+    border-radius: 10px;
+    padding: 10px;
+}
+#Categories h2{
+    text-align: center;
+    font-size: 27px;
+}
+.Categories-s{
+    width: 280px;
+    padding: 6px;
+    border-radius: 10px;
+}
+.Categories-s img{
+    width: 250px;
+    border-radius: 10px;
+}
+.Categories-s-kolech{
+    display: flex;
+    gap: 50px;
+    margin-left: 20px;
+}
+
+#topprodact{
+    background-color: rgb(252, 249, 239);
+    border-radius: 10px;
+    padding: 10px;
+}
+#topprodact h2{
+    text-align: center;
+}    
+.prodacts{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+.prodact{
+    width: 300px;
+    height: 380px;
+    border-radius: 10px;
+    border: solid 2px black;
+    padding: 6px;
+    justify-items: center;
+}
+.prodacts img{
+    width: 290px;
+    height: 280px;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+.prodact h5{
+    font-size: 18px;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 2px;
+    padding-bottom: 2px;
+}
+.prodact p{
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.prodact button{
+    width: 200px;
+    background-color: rgb(243, 101, 66);
+    border: none;
+    border-radius: 3px;
+    font-size: 15px;
+    padding: 3px;
+    margin-left: 50px;
+    color: black;
+    text-decoration: none;
+}
+.prodact button a{
+    color: black;
+    text-decoration: none;
+
+}
+
+.info-order{
+    display: flex;
+    gap: 50px;
+}
+
+.info{
+    width: 700px;
+    height: 300px;
+    padding: 10px;
+    background-color: rgb(252, 252, 252);
+    border-radius: 7px;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+.info-s{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-left: 10px;
+}
+#bodi{
+    background-color: rgb(219, 219, 219);
+}
+.ss{
+    display: flex;
+    flex-direction: column;
+}
+.inp{
+    width: 300px;
+}
+
+.order{
+    width: 324px;
+    border-radius: 7px;
+    height: 250px;
+    background-color: rgb(252, 252, 252);
+    margin-top: 30px;
+    padding: 10px;
+    padding-left: 20px;
+}
+.code-promo{
+    display: flex;
+    flex-direction: column;
+}
+.input-promo{
+    display: flex;
+    gap: 10px;
+}
+.input-promo input{
+    height: 30px;
+    width: 250px;
+}
+.code-promo label{
+    margin-bottom: 5px;
+}
+.order p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.btn-ordr{
+    width: 320px;
+    height: 35px;
+    color: white;
+    background-color: chocolate;
+    border: none;
+    border-radius: 4px;
+
+}
+.btn-1{
+    color: chocolate;
+    background-color: rgb(252, 252, 252);
+    border: solid 1px rgb(122, 122, 122);
+    border-radius: 4px;
+}
+.tabl-prodact{
+    width: 750px;
+    height: 300px;
+    padding: 10px;
+    background-color: rgb(252, 252, 252);
+    border-radius: 7px;
+    margin-left: 60px;
+    margin-top: 30px;
+}  
+.tablo-str1{
+    border-bottom: dashed 0.2px rgb(163, 163, 163);
+    gap: 70px;
+    display: flex;
+    margin-left: 30px;
+    width: 650px;
+}
+.tablo-str1 p{
+    margin-left: 10px;
+}
+.total-p{
+    font-size: 15px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.prdct {
+    display: flex;
+    margin-left: 30px;
+    width: 650px;
+    margin-top: 20px;
+}
+.p0{
+    width: 60px;
+    height: 60px;
+}
+.p1{
+    margin-left: 100px;
+}
+.p2{
+    margin-left: 100px;
+}
+.p3{
+    margin-left: 100px;
+}
+.p4{
+    margin-left: 110px;
+    width: 40px;
+}
+.tablo button{
+    width: 45px;
+    height: 35px;
+    margin-top: 14px;
+    margin-left: 620px;
+    padding: 5px;
+    color: white;
+    background-color: chocolate;
+    border: none;
+    border-radius: 6px;
+    top: 445px;
+    left: 160px;
+}
+
+@media (max-width: 600px){
+    *{
+    font-family: cursive;
+    font-weight: 600;
+}
+#menu{
+    display: flex;
+    list-style: none;
+    gap: 11px;
+    justify-content: flex-end;
+}
+.img-pr{
+    width: 600px;
+}
+#About{
+    display: flex;
+    gap: 35px;
+}
+#About img{
+    width: 325px;
+    height: 250px;
+    border-radius: 5px;
+}
+.content{
+    margin-top: 100px;
+    margin-left: 10px;
+}
+#Categories{
+    background-color: rgb(252, 249, 239);
+    border-radius: 15px;
+    padding: 5px;
+}
+#Categories h2{
+    text-align: center;
+    font-size: 13px;
+}
+.Categories-s{
+    width: 140px;
+    padding: 3px;
+    border-radius: 5px;
+}
+.Categories-s img{
+    width: 130px;
+    border-radius: 5px;
+}
+.Categories-s-kolech{
+    display: flex;
+    gap: 25px;
+    margin-left: 10px;
+}
+
+#topprodact{
+    background-color: rgb(252, 249, 239);
+    border-radius: 50px;
+    padding: 50px;
+}
+#topprodact h2{
+    text-align: center;
+}    
+.prodacts{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+.prodact{
+    width: 150px;
+    height: 170px;
+    border-radius: 5px;
+    border: solid 2px black;
+    padding: 3px;
+    justify-items: center;
+}
+.prodacts img{
+    width: 145px;
+    height: 140px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+.prodact h5{
+    font-size: 9px;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 2px;
+    padding-bottom: 2px;
+}
+.prodact p{
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.prodact button{
+    width: 100px;
+    background-color: rgb(243, 101, 66);
+    border: none;
+    border-radius: 3px;
+    font-size: 7px;
+    padding: 3px;
+    margin-left: 25px;
+    color: black;
+    text-decoration: none;
+}
+.prodact button a{
+    color: black;
+    text-decoration: none;
+
+}
+
+.info-order{
+    display: flex;
+    gap: 25px;
+}
+
+.info{
+    width: 350px;
+    height: 150px;
+    padding: 5px;
+    background-color: rgb(252, 252, 252);
+    border-radius: 7px;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+.info-s{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-left: 5px;
+}
+#bodi{
+    background-color: rgb(219, 219, 219);
+}
+.ss{
+    display: flex;
+    flex-direction: column;
+}
+.inp{
+    width: 150px;
+}
+
+.order{
+    width: 162px;
+    border-radius: 3px;
+    height: 125px;
+    background-color: rgb(252, 252, 252);
+    margin-top: 15px;
+    padding: 15px;
+    padding-left: 10px;
+}
+.code-promo{
+    display: flex;
+    flex-direction: column;
+}
+.input-promo{
+    display: flex;
+    gap: 5px;
+}
+.input-promo input{
+    height: 15px;
+    width: 125px;
+}
+.code-promo label{
+    margin-bottom: 2px;
+}
+.order p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.btn-ordr{
+    width: 160px;
+    height: 17px;
+    color: white;
+    background-color: chocolate;
+    border: none;
+    border-radius: 2px;
+
+}
+.btn-1{
+    color: chocolate;
+    background-color: rgb(252, 252, 252);
+    border: solid 1px rgb(122, 122, 122);
+    border-radius: 2px;
+}
+.tabl-prodact{
+    width: 375px;
+    height: 150px;
+    padding: 5px;
+    background-color: rgb(252, 252, 252);
+    border-radius: 3px;
+    margin-left: 30px;
+    margin-top: 60px;
+}  
+.tablo-str1{
+    border-bottom: dashed 0.2px rgb(163, 163, 163);
+    gap: 35px;
+    display: flex;
+    margin-left: 15px;
+    width: 325px;
+}
+.tablo-str1 p{
+    margin-left: 5px;
+}
+.total-p{
+    font-size: 7px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.prdct {
+    display: flex;
+    margin-left: 15px;
+    width: 325px;
+    margin-top: 10px;
+}
+.p0{
+    width: 30px;
+    height: 30px;
+}
+.p1{
+    margin-left: 50px;
+}
+.p2{
+    margin-left: 50px;
+}
+.p3{
+    margin-left: 50px;
+}
+.p4{
+    margin-left: 55px;
+    width: 20px;
+}
+.tablo button{
+    width: 22px;
+    height: 16px;
+    margin-top: 7px;
+    margin-left: 310px;
+    padding: 3px;
+    color: white;
+    background-color: chocolate;
+    border: none;
+    border-radius: 3px;
+    top: 222px;
+    left: 80px;
+}
+
+}
