@@ -234,7 +234,7 @@
     top: 445px;
     left: 160px;
 }
-@media (max-width: 600px){
+@media (max-width: 300px){
     *{
     font-family: cursive;
     font-weight: 600;
@@ -478,4 +478,5 @@
 
 
 }
+
 
